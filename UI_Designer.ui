@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MindMate - Home</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <widget class="QFrame" name="homeScreenFrame">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>801</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Home Screen.png) 0 0 0 0 stretch stretch;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="chatbotButton">
+     <property name="geometry">
+      <rect>
+       <x>346</x>
+       <y>25</y>
+       <width>185</width>
+       <height>224</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/ChatBot Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/ChatBot Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/ChatBot Button/After.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="journalsButton">
+     <property name="geometry">
+      <rect>
+       <x>552</x>
+       <y>25</y>
+       <width>185</width>
+       <height>224</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Journals Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Journals Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Journals Button/After.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="moodSupportButton">
+     <property name="geometry">
+      <rect>
+       <x>346</x>
+       <y>270</y>
+       <width>185</width>
+       <height>224</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Button/After.png);
+} </string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="statsButton">
+     <property name="geometry">
+      <rect>
+       <x>552</x>
+       <y>270</y>
+       <width>185</width>
+       <height>224</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Stats Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Stats Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Stats Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="closeButton">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Close Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Close Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Close Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="chatbotFrame">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/ChatBot);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="backButton">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QFrame" name="userInputFrame">
+     <property name="geometry">
+      <rect>
+       <x>49</x>
+       <y>415</y>
+       <width>664</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/ChatBot/Query&quot;) 0 0 0 0 stretch stretch;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>10</y>
+        <width>590</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 16px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="sendButton">
+     <property name="geometry">
+      <rect>
+       <x>665</x>
+       <y>424</y>
+       <width>37</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QFrame" name="chatBoxFrame">
+     <property name="geometry">
+      <rect>
+       <x>49</x>
+       <y>146</y>
+       <width>664</width>
+       <height>253</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/ChatBot/Chat&quot;) 0 0 0 0 stretch stretch;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="chatbox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>664</width>
+        <height>252</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Inter&quot;;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    background: transparent;
+    qproperty-alignment: 'AlignTop | AlignLeft';
+    qproperty-wordWrap: true;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="journalsFrame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Journal.png) 0 0 0 0 stretch stretch;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="sendButton_2">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>313</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QFrame" name="dateAndTimeFrame">
+     <property name="geometry">
+      <rect>
+       <x>224</x>
+       <y>140</y>
+       <width>317</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/Journals/Date and Time&quot;) 0 0 0 0 stretch stretch;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="dateAndTime">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>307</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Inter&quot;;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: transparent;
+    qproperty-alignment: 'AlignCenter';
+}</string>
+      </property>
+      <property name="text">
+       <string>DayOfWeek, DD MMMM YYYY (hh:mm)</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTextEdit" name="writeJournal">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>185</y>
+       <width>680</width>
+       <height>296</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextEdit {
+    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/ChatBot/Chat&quot;) 0 0 0 0 stretch stretch;
+	font-family: 'Inter';
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 9px;     /* adjust as needed */
+    padding-left: 7px;    /* adjust as needed */
+    padding-right: 50px;   /* adjust as needed */
+    padding-bottom: 9px;
+    color: white;
+    background: transparent;
+    border: none;
+}
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backButton_2">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>writeJournal</zorder>
+    <zorder>dateAndTimeFrame</zorder>
+    <zorder>sendButton_2</zorder>
+    <zorder>backButton_2</zorder>
+   </widget>
+   <widget class="QFrame" name="moodSupportFrame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Mood Support);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="backButton_3">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="stressButton">
+     <property name="geometry">
+      <rect>
+       <x>51</x>
+       <y>144</y>
+       <width>79</width>
+       <height>79</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Stress Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Stress Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Stress Button/After.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="sadButton">
+     <property name="geometry">
+      <rect>
+       <x>198</x>
+       <y>144</y>
+       <width>79</width>
+       <height>79</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Sad Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Sad Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Sad Button/After.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="lonelyButton">
+     <property name="geometry">
+      <rect>
+       <x>343</x>
+       <y>145</y>
+       <width>79</width>
+       <height>79</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Lonely Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Lonely Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Lonely Button/After.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="angryButton">
+     <property name="geometry">
+      <rect>
+       <x>489</x>
+       <y>145</y>
+       <width>79</width>
+       <height>79</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Angry Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Angry Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Angry Button/After.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="anxietyButton">
+     <property name="geometry">
+      <rect>
+       <x>636</x>
+       <y>145</y>
+       <width>79</width>
+       <height>79</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Anxiety Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Anxiety Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Anxiety Button/After.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QFrame" name="measuresFrame">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>248</y>
+       <width>664</width>
+       <height>222</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/Mood Support/Measures.png&quot;) 0 0 0 0 stretch stretch;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="measures">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>664</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Inter&quot;;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background: transparent;
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="stats1Frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="forwardButton">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="stats2Frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats1);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="forwardButton_2">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="stats3Frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats2);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="forwardButton_3">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="stats7Frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats6);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="backButton_4">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="stats4Frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats3);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="forwardButton_4">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="stats5Frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats4);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="forwardButton_5">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="stats6Frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats5);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="forwardButton_6">
+     <property name="geometry">
+      <rect>
+       <x>759</x>
+       <y>207</y>
+       <width>22</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    background: transparent;
+}
+QPushButton:hover {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+}
+QPushButton:pressed {
+    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <zorder>homeScreenFrame</zorder>
+   <zorder>chatbotFrame</zorder>
+   <zorder>journalsFrame</zorder>
+   <zorder>moodSupportFrame</zorder>
+   <zorder>stats1Frame</zorder>
+   <zorder>stats2Frame</zorder>
+   <zorder>stats3Frame</zorder>
+   <zorder>stats4Frame</zorder>
+   <zorder>stats5Frame</zorder>
+   <zorder>stats6Frame</zorder>
+   <zorder>stats7Frame</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
