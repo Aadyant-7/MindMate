@@ -1,0 +1,29 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.devtmp/
+
+# Windows app build output
+build/
+dist/
+
+# API keys and private local settings
+.env
+.env.*
+!.env.example
+settings.json
+config.local.json
+
+# Personal journal entries
+Your Journals/
+journals/
+
+# Editor and operating system files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+*.log

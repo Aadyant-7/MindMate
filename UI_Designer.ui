@@ -33,7 +33,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Home Screen.png) 0 0 0 0 stretch stretch;</string>
+     <string notr="true">border-image: url(&quot;Assets/Frames/Home Screen.png&quot;) 0 0 0 0 stretch stretch;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -52,14 +52,14 @@
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/ChatBot Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/ChatBot Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/ChatBot Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/ChatBot Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/ChatBot Button/After.png);
+    border-image: url(&quot;Assets/Buttons/ChatBot Button/After.png&quot;);
 }</string>
      </property>
      <property name="text">
@@ -77,14 +77,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Journals Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Journals Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Journals Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Journals Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Journals Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Journals Button/After.png&quot;);
 }</string>
      </property>
      <property name="text">
@@ -102,14 +102,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Button/After.png&quot;);
 } </string>
      </property>
      <property name="text">
@@ -127,14 +127,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Stats Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Stats Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Stats Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Stats Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Stats Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Stats Button/After.png&quot;);
 }
 </string>
      </property>
@@ -153,14 +153,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Close Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Close Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Close Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Close Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Close Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Close Button/After.png&quot;);
 }
 </string>
      </property>
@@ -183,7 +183,7 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/ChatBot);
+    border-image: url(&quot;Assets/Frames/ChatBot.png&quot;);
 }
 </string>
     </property>
@@ -204,14 +204,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/After.png&quot;);
 }
 </string>
      </property>
@@ -230,7 +230,7 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QFrame {
-    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/ChatBot/Query&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;Assets/Dynamic/ChatBot/Query.png&quot;) 0 0 0 0 stretch stretch;
 }
 </string>
      </property>
@@ -275,14 +275,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Send Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Send Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Send Button/After.png&quot;);
 }
 </string>
      </property>
@@ -301,7 +301,7 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QFrame {
-    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/ChatBot/Chat&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;Assets/Dynamic/ChatBot/Chat.png&quot;) 0 0 0 0 stretch stretch;
 }
 </string>
      </property>
@@ -353,7 +353,7 @@ QPushButton:pressed {
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Journal.png) 0 0 0 0 stretch stretch;</string>
+     <string notr="true">border-image: url(&quot;Assets/Frames/Journal.png&quot;) 0 0 0 0 stretch stretch;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -372,14 +372,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Send Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Send Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Send Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Send Button/After.png&quot;);
 }
 </string>
      </property>
@@ -398,7 +398,7 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QFrame {
-    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/Journals/Date and Time&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;Assets/Dynamic/Journals/Date and Time.png&quot;) 0 0 0 0 stretch stretch;
 }
 </string>
      </property>
@@ -445,7 +445,7 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QTextEdit {
-    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/ChatBot/Chat&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;Assets/Dynamic/ChatBot/Chat.png&quot;) 0 0 0 0 stretch stretch;
 	font-family: 'Inter';
     font-weight: bold;
     font-size: 14px;
@@ -471,14 +471,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/After.png&quot;);
 }
 </string>
      </property>
@@ -502,7 +502,7 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Mood Support);
+    border-image: url(&quot;Assets/Frames/Mood Support.png&quot;);
 }</string>
     </property>
     <property name="frameShape">
@@ -522,14 +522,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/After.png&quot;);
 }
 </string>
      </property>
@@ -548,14 +548,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Stress Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Stress Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Stress Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Stress Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Stress Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Stress Button/After.png&quot;);
 }</string>
      </property>
      <property name="text">
@@ -573,14 +573,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Sad Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Sad Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Sad Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Sad Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Sad Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Sad Button/After.png&quot;);
 }</string>
      </property>
      <property name="text">
@@ -598,14 +598,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Lonely Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Lonely Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Lonely Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Lonely Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Lonely Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Lonely Button/After.png&quot;);
 }</string>
      </property>
      <property name="text">
@@ -623,14 +623,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Angry Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Angry Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Angry Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Angry Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Angry Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Angry Button/After.png&quot;);
 }</string>
      </property>
      <property name="text">
@@ -648,14 +648,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Anxiety Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Anxiety Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Anxiety Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Anxiety Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Mood Support Emotions/Anxiety Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Mood Support Emotions/Anxiety Button/After.png&quot;);
 }</string>
      </property>
      <property name="text">
@@ -673,7 +673,7 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QFrame {
-    border-image: url(&quot;G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Dynamic/Mood Support/Measures.png&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;Assets/Dynamic/Mood Support/Measures.png&quot;) 0 0 0 0 stretch stretch;
 }
 </string>
      </property>
@@ -723,7 +723,7 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats);
+    border-image: url(&quot;Assets/Frames/Stats.png&quot;);
 }
 </string>
     </property>
@@ -744,14 +744,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/After.png&quot;);
 }
 </string>
      </property>
@@ -771,7 +771,7 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats1);
+    border-image: url(&quot;Assets/Frames/Stats1.png&quot;);
 }</string>
     </property>
     <property name="frameShape">
@@ -791,14 +791,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/After.png&quot;);
 }
 </string>
      </property>
@@ -818,7 +818,7 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats2);
+    border-image: url(&quot;Assets/Frames/Stats2.png&quot;);
 }
 </string>
     </property>
@@ -839,14 +839,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/After.png&quot;);
 }
 </string>
      </property>
@@ -866,7 +866,7 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats6);
+    border-image: url(&quot;Assets/Frames/Stats6.png&quot;);
 }
 </string>
     </property>
@@ -887,14 +887,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Back Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Back Button/After.png&quot;);
 }
 </string>
      </property>
@@ -914,7 +914,7 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats3);
+    border-image: url(&quot;Assets/Frames/Stats3.png&quot;);
 }
 </string>
     </property>
@@ -935,14 +935,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/After.png&quot;);
 }
 </string>
      </property>
@@ -962,7 +962,7 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats4);
+    border-image: url(&quot;Assets/Frames/Stats4.png&quot;);
 }
 </string>
     </property>
@@ -983,14 +983,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/After.png&quot;);
 }
 </string>
      </property>
@@ -1010,7 +1010,7 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Frames/Stats5);
+    border-image: url(&quot;Assets/Frames/Stats5.png&quot;);
 }
 </string>
     </property>
@@ -1031,14 +1031,14 @@ QPushButton:pressed {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Before.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Before.png&quot;);
     background: transparent;
 }
 QPushButton:hover {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/Hover.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/Hover.png&quot;);
 }
 QPushButton:pressed {
-    border-image: url(G:/Users/MARS/Desktop/NTCC Aadi/In-House Project/MindMate/Assets/Buttons/Forward Button/After.png);
+    border-image: url(&quot;Assets/Buttons/Forward Button/After.png&quot;);
 }
 </string>
      </property>

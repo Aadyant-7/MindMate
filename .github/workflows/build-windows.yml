@@ -1,0 +1,41 @@
+name: Build Windows app
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+          architecture: x64
+          cache: pip
+      - name: Install dependencies
+        run: |
+          python -m venv .venv
+          .\.venv\Scripts\python.exe -m pip install -r requirements.txt -r requirements-build.txt
+      - name: Test local behaviour
+        run: .\.venv\Scripts\python.exe -m unittest discover -s tests -v
+        env:
+          QT_QPA_PLATFORM: offscreen
+      - name: Build executable
+        run: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File .\scripts\MindMate.ps1 -Mode Build
+      - name: Check bundled resources
+        shell: pwsh
+        run: |
+          $Report = Join-Path $env:RUNNER_TEMP 'mindmate-check.json'
+          $App = Start-Process -FilePath '.\dist\MindMate.exe' -ArgumentList @('--check-install', ('"' + $Report + '"')) -WindowStyle Hidden -Wait -PassThru
+          if ($App.ExitCode -ne 0) { throw 'The packaged app check failed.' }
+          $Result = Get-Content -LiteralPath $Report -Raw | ConvertFrom-Json
+          if (-not $Result.passed) { throw 'Bundled assets or fonts are missing.' }
+      - uses: actions/upload-artifact@v7
+        with:
+          name: MindMate-Windows
+          path: dist/MindMate.exe
+          if-no-files-found: error
